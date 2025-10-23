@@ -1,7 +1,7 @@
-# Top-most EditorConfig file
+# https://editorconfig.org/
+
 root = true
 
-# Sets the formatting conventions for the project
 [*]
 charset = utf-8
 end_of_line = lf
@@ -10,6 +10,5 @@ indent_size = 2
 indent_style = space
 trim_trailing_whitespace = true
 
-# Override for Markdown files
 [*.md]
 trim_trailing_whitespace = false
